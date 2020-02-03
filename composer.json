@@ -8,7 +8,9 @@
             "email": "yanxiajun@hotmail.com"
         }
     ],
-    "require": {},
+    "require": {
+        "php-di/php-di": "^6.0"
+    },
     "autoload": {
         "psr-4": {
             "Plainphp\\": "src/"
