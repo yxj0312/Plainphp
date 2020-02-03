@@ -1,0 +1,17 @@
+{
+    "name": "verapeter/plainphp",
+    "type": "project",
+    "license": "#",
+    "authors": [
+        {
+            "name": "yxj0312",
+            "email": "yanxiajun@hotmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Plainphp\\": "src/"
+        }
+    }
+}
