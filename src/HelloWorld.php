@@ -6,14 +6,17 @@ namespace Plainphp;
 
 class HelloWorld
 {
-    /*public function announce()
+    public function announce()
     {
         echo "Hello, autoloaded world!";
-    }*/
-
-    public function __invoke(): void
-    {
-        echo 'Hello, autoloaded world!';
-        exit;
     }
+
+//    public function __invoke(): void
+//    {
+//        echo 'Hello, autoloaded world!';
+//        exit;
+//    }
 }
+
+$hi = new HelloWorld();
+$hi->announce();
